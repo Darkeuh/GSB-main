@@ -56,7 +56,7 @@
   echo "<td>".$rapDate."</td>";
   echo "<td>".$rapBilan."</td>";
   echo "<td>".$rapMotif."</td>";
-  echo "<td>"."<a href='RapportModifier.php?rapNum=".$rapNum."'>"."Modifier</a>"."</tq>";
+  echo "<td>"."<a href='RapportModifier.php?rapNum=".$rapNum."'>"."Modifier</a>"."</td>";
   echo "</tr>";
 
   $ligne = $result->fetch();
